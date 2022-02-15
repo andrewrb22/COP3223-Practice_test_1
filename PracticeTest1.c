@@ -4,6 +4,9 @@
 int main(){
 
 
+
+
+
     return 0;
 }
 
@@ -24,4 +27,14 @@ int main(){
 // ++x;
 // printf("x++ is %d", x);
 //Answer: x++ is 2 
+//******************************//
+//Question # 4
+// int x = 100;
+// printf("printf(x);");
+//Answer: printf(x);
+//******************************//
+//Question # 5
+//printf("is not \normal \to mess up");
+//Answer: is not n
+//                ormal     o mess 
 //******************************//
