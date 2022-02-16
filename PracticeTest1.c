@@ -38,3 +38,51 @@ int main(){
 //Answer: is not n
 //                ormal     o mess 
 //******************************//
+//Question # 6
+//printf("%d" , 7/2);
+//Answer: 3
+//******************************//
+//Question # 7
+//float x = (float) 7/3;
+//printf("%.2f", x);
+//Answer: 2.33 (none of the above) -- second float exact value, no second float rounds
+//******************************//
+//Question # 8
+//int x = 3;
+// if (x > 3 || x != 2) printf("TRUE");
+// printf("FALSE");
+//Answer: TRUEFALSE -- || is OR
+//******************************//
+//Question # 9
+//int x = 3;
+// switch( x + 1 ){
+//     case 3: printf("TRUE");
+//     case 4: printf("TRUE");
+//     default: printf("TRUE");
+// }
+// printf("TRUE");
+//Answer: TRUETRUETRUE 
+//******************************//
+//Question # 10
+//int n = 0;
+// for( n = 7 ; n < 0 ; n-- ){
+//     printf("*****\n");
+//     n = n + 1 ;
+// }
+// printf("n = %d", n);
+//Answer: n = 7 -- before loop = 0 , inside the loop 7 - 1 = 6 , after the loop 6 + 1 = 7
+//******************************//
+//Question # 11
+// int n = 3 , x = 10;
+
+// while ( n != 3 || x > 5 ){
+//     n = n + 5;
+//     if ( n > 7 ){
+//         printf("%d\n", n);
+//         break;
+//     }
+// }
+//Answer: 8 
+//******************************//
+//Question # 12
+
