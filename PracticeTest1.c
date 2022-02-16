@@ -3,8 +3,15 @@
 
 int main(){
 
+int counter = 2;
+while (counter < 10){
+    counter++;
+    if( counter < 5) continue;
+    else if (counter >= 6 ) break;
+    printf("Inside Loop");
+}
 
-
+printf("Outside the loop");
 
 
     return 0;
@@ -85,4 +92,53 @@ int main(){
 //Answer: 8 
 //******************************//
 //Question # 12
+// int n = 3;
+// while( n > 1 ){
+//     n = n + 5; 
+//     if(n <= 7 ){
+//         break;
+//         printf("%d\n", n);
+//     }
+//     printf("%d", n);
+// }
+//Answer: No stop (none of the above)
+//******************************//
+//Question # 13
+// int i = 2;
+// printf("One");
+// if( i > 2 )
+// printf("Two");
+// else
+// printf("Three");
+// printf("Four");
+//Answer: One Three Four
+//******************************//
+//Question # 14
+// char option = 'h';
+// switch(option){
+//     case 'H': printf("Hello");
+//         break;
+//     case 'W': printf("Welcome");
+//         break;
+//     case 'B': printf("B");
+//         break;
+//      default: printf("Take care");           
+// }
+//Answer: Take care - default value 
+//******************************//
+//Question # 15
+//int counter = 2;
+// while (counter < 10){
+//     counter++;
+//     if( counter < 5) continue;
+//     else if (counter >= 6 ) break;
+//     printf("Inside Loop");
+// }
+
+// printf("Outside the loop");
+//Answer
+
+
+
+
 
