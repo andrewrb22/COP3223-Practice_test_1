@@ -3,17 +3,7 @@
 
 int main(){
 
-int counter = 2;
-while (counter < 10){
-    counter++;
-    if( counter < 5) continue;
-    else if (counter >= 6 ) break;
-    printf("Inside Loop");
-}
-
-printf("Outside the loop");
-
-
+printf("\n\tPRACTICE EXAM # 1\n\n");
     return 0;
 }
 
@@ -136,7 +126,8 @@ printf("Outside the loop");
 // }
 
 // printf("Outside the loop");
-//Answer
+//Answer: Inside LoopOutside the loop
+//******************************//
 
 
 
